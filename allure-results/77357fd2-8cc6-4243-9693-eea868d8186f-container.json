@@ -1,0 +1,1 @@
+{"uuid":"77357fd2-8cc6-4243-9693-eea868d8186f","name":"dotfoods.com.test.MyListTest","children":["b032a988-bbbf-469f-aa63-5f20438764d2"],"befores":[{"name":"launchApplication","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1721209667662,"stop":1721209678363}],"afters":[],"start":1721209667585,"stop":1721209750259}

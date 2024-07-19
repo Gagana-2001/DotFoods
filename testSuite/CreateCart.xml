@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="dotfoods.com.baseTest.ListenersTest" />
+	</listeners>
+	<test thread-count="5" name="CreateCart">
+		<classes>
+			<class name="dotfoods.com.test.CreateCartTest" />
+		</classes>
+	</test>
+</suite> 

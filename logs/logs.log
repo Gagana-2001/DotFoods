@@ -1,0 +1,717 @@
+[INFO ] 2024-07-16 17:20:52.039 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-16 17:21:05.544 [main] BaseTest - Launching on application
+[INFO ] 2024-07-16 17:21:35.700 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-16 17:21:41.354 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-16 17:21:41.364 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-16 17:21:52.175 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-16 17:21:52.216 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-16 17:21:52.218 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-16 19:50:14.715 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-16 19:50:38.593 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:16:41.010 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:16:55.928 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:16:56.102 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:16:59.692 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:01.291 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:06.028 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:06.103 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:06.177 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:09.799 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:09.822 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:09.896 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:13.378 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:13.415 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:13.489 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:16.683 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:16.871 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:16.884 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:20.343 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:17:20.377 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:20.513 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:23.987 [main] BaseTest - Launching on application
+[DEBUG] 2024-07-17 11:17:24.190 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 11:17:24.194 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 11:17:24.662 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 11:17:44.836 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 11:17:55.440 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 11:18:25.609 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 11:18:31.166 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 11:18:31.213 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 11:18:38.549 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 11:18:38.615 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 11:18:38.632 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 12:10:32.576 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 12:10:45.420 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 12:11:12.469 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 12:11:15.327 [main] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 12:11:15.668 [main] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 12:11:21.001 [main] BaseTest - Adding New Row
+[INFO ] 2024-07-17 12:11:21.001 [main] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 12:11:21.047 [main] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 12:11:33.545 [main] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 12:11:33.851 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 12:11:33.977 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 12:11:33.984 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 12:40:46.949 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 12:41:00.771 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 12:54:01.278 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 12:54:19.939 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 12:57:45.069 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 12:58:03.177 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 12:58:03.191 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 12:58:11.604 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 12:59:51.716 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:00:01.179 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 13:00:01.199 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:00:14.084 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 13:46:33.828 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:46:48.989 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 13:46:49.030 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:47:05.986 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 13:47:05.986 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:47:25.333 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 13:47:29.863 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 13:49:06.269 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 13:49:15.434 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:01:04.509 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:01:37.694 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:03:22.974 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:03:32.053 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:03:57.310 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:04:06.227 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:07:48.344 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:07:57.492 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:10:26.103 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:10:41.850 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:54:15.612 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:54:24.095 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:54:41.569 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 14:54:45.588 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 14:54:48.440 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 14:54:48.528 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 14:54:49.392 [main] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 14:55:03.084 [main] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 14:55:03.180 [main] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 14:55:16.630 [main] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 14:55:26.608 [main] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 14:55:26.666 [main] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 14:55:26.714 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 14:55:26.847 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:55:30.472 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:55:40.487 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 14:55:43.427 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 14:55:45.163 [main] BaseTest - Searching for product with dot number 711130
+[INFO ] 2024-07-17 14:55:45.238 [main] BaseTest - Verifying the search result for dot number 711130
+[INFO ] 2024-07-17 14:55:46.875 [main] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 14:55:53.062 [main] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 14:55:53.241 [main] BaseTest - Verifying the cart for product with dotNumber 711130
+[INFO ] 2024-07-17 14:56:06.461 [main] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 14:56:26.755 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 14:57:32.634 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:57:38.055 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:57:50.257 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 14:57:54.063 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 14:57:56.051 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 14:57:56.198 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 14:57:56.331 [main] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 14:58:01.960 [main] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 14:58:02.069 [main] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 14:58:11.816 [main] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 14:58:21.064 [main] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 14:58:21.124 [main] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 14:58:21.140 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 14:58:50.426 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:58:56.602 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 14:59:06.888 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 14:59:12.447 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 14:59:12.570 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 14:59:20.904 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 14:59:20.965 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 14:59:20.971 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 14:59:44.616 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 14:59:49.736 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:00:04.239 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:00:05.759 [main] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 15:00:06.221 [main] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 15:00:11.559 [main] BaseTest - Adding New Row
+[INFO ] 2024-07-17 15:00:11.559 [main] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 15:00:11.636 [main] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 15:00:17.434 [main] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 15:00:17.634 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:00:17.704 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:00:17.715 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:00:52.593 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:00:58.092 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:01:10.166 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:01:37.155 [main] BaseTest - Verifying footer links based on status code
+[INFO ] 2024-07-17 15:01:37.170 [main] BaseTest - Footer links verification completed. Assertion result: Link Broken
+[INFO ] 2024-07-17 15:01:37.312 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:01:59.321 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:02:05.101 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:02:15.586 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:02:20.630 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:02:24.817 [main] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 15:02:24.906 [main] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 15:02:33.390 [main] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 15:02:35.340 [main] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 15:03:15.817 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:03:39.822 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:03:45.184 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:03:56.744 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:04:00.670 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:04:03.677 [main] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 15:04:03.763 [main] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 15:04:12.275 [main] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 15:04:14.183 [main] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 15:04:22.414 [main] BaseTest - Verification of product with DOT number: 646764 in MyList returned: true
+[INFO ] 2024-07-17 15:04:22.414 [main] BaseTest - Product with DOT number: 646764 successfully verified in MyList
+[INFO ] 2024-07-17 15:04:22.425 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:05:48.911 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:05:54.794 [main] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:05:55.141 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:05:55.141 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:06:10.144 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:06:14.377 [main] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 15:06:14.552 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:06:14.556 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:06:15.155 [main] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 15:06:15.453 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:11:06.562 [TestNG-tests-1] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:11:16.885 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:11:19.375 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:11:21.268 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:11:22.699 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:11:24.411 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:12:50.642 [TestNG-tests-4] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:13:01.756 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:13:03.554 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:13:05.166 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:13:07.036 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:13:08.845 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:14:25.777 [TestNG-tests-5] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:14:41.500 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:14:43.983 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:14:46.109 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:14:50.533 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:14:52.578 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:16:35.924 [TestNG-tests-4] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:16:37.030 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:16:39.496 [TestNG-tests-5] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:16:39.542 [TestNG-tests-1] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:16:43.857 [TestNG-tests-1] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:16:44.130 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:16:44.146 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:17:02.017 [TestNG-tests-1] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:17:06.522 [TestNG-tests-1] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 15:17:06.555 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:17:06.556 [TestNG-tests-1] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:17:07.097 [TestNG-tests-1] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 15:17:07.297 [TestNG-tests-1] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:17:48.221 [TestNG-tests-1] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:17:57.106 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:17:58.360 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:18:00.212 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:18:01.533 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:18:02.606 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:19:09.121 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:19:10.338 [TestNG-tests-4] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:19:15.974 [TestNG-tests-4] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:19:16.110 [TestNG-tests-4] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:19:16.112 [TestNG-tests-4] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:20:10.411 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:20:19.425 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:20:20.834 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:20:22.148 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:20:23.578 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:20:25.815 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:09.961 [TestNG-tests-2] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:21:18.342 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:19.812 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:21:22.283 [TestNG-tests-2] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:21:25.398 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:25.694 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:26.110 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:26.843 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:21:30.296 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:21:30.449 [TestNG-tests-2] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:22:17.879 [TestNG-tests-2] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:22:25.923 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:22:28.341 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:22:28.575 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:22:29.393 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:22:30.696 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:22:59.330 [TestNG-tests-2] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:22:59.912 [TestNG-tests-1] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:23:01.208 [TestNG-tests-3] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:23:05.414 [TestNG-tests-1] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 15:23:05.994 [TestNG-tests-4] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:23:09.998 [TestNG-tests-5] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:23:10.058 [TestNG-tests-1] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 15:23:12.039 [TestNG-tests-2] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 15:23:12.068 [TestNG-tests-2] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 15:23:12.967 [TestNG-tests-4] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:23:16.176 [TestNG-tests-4] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 15:23:16.438 [TestNG-tests-4] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 15:23:16.505 [TestNG-tests-5] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:23:17.807 [TestNG-tests-1] BaseTest - Adding New Row
+[INFO ] 2024-07-17 15:23:17.807 [TestNG-tests-1] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 15:23:18.162 [TestNG-tests-1] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 15:23:18.456 [TestNG-tests-4] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 15:23:20.467 [TestNG-tests-3] BaseTest - Verifying footer links based on status code
+[INFO ] 2024-07-17 15:23:20.469 [TestNG-tests-3] BaseTest - Footer links verification completed. Assertion result: Link Broken
+[INFO ] 2024-07-17 15:23:20.474 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:23:21.127 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:23:21.161 [TestNG-tests-5] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 15:23:21.394 [TestNG-tests-5] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 15:23:22.117 [TestNG-tests-2] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:23:22.242 [TestNG-tests-2] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:23:22.251 [TestNG-tests-2] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:23:27.134 [TestNG-tests-3] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:23:27.284 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:23:27.288 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:23:27.923 [TestNG-tests-1] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 15:23:28.039 [TestNG-tests-4] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 15:23:28.202 [TestNG-tests-4] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 15:23:28.213 [TestNG-tests-1] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:23:28.385 [TestNG-tests-1] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:23:28.389 [TestNG-tests-1] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:23:30.246 [TestNG-tests-5] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 15:23:31.957 [TestNG-tests-5] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 15:23:38.974 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:23:41.024 [TestNG-tests-4] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 15:23:51.521 [TestNG-tests-4] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 15:23:51.611 [TestNG-tests-4] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 15:23:51.615 [TestNG-tests-4] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:24:00.495 [TestNG-tests-5] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:25:08.411 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:25:21.512 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:25:21.682 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:25:21.868 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:25:22.569 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:25:22.865 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:25:40.993 [TestNG-tests-5] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:25:41.087 [TestNG-tests-2] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:25:41.394 [TestNG-tests-4] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:25:47.351 [TestNG-tests-5] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:25:48.683 [TestNG-tests-4] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:25:48.943 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:25:49.892 [TestNG-tests-2] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 15:25:50.937 [TestNG-tests-1] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:25:50.950 [TestNG-tests-2] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 15:25:51.184 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:25:52.971 [TestNG-tests-5] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 15:25:53.300 [TestNG-tests-5] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 15:25:54.403 [TestNG-tests-4] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 15:25:54.719 [TestNG-tests-4] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 15:25:55.144 [TestNG-tests-4] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 15:25:58.075 [TestNG-tests-3] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:25:58.549 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:25:58.564 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:25:59.112 [TestNG-tests-2] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:25:59.245 [TestNG-tests-2] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:25:59.245 [TestNG-tests-2] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:26:01.792 [TestNG-tests-4] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 15:26:02.045 [TestNG-tests-4] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 15:26:02.391 [TestNG-tests-5] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 15:26:04.893 [TestNG-tests-5] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 15:26:10.767 [TestNG-tests-3] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:26:14.951 [TestNG-tests-5] BaseTest - Verification of product with DOT number: 646764 in MyList returned: true
+[INFO ] 2024-07-17 15:26:14.951 [TestNG-tests-5] BaseTest - Product with DOT number: 646764 successfully verified in MyList
+[INFO ] 2024-07-17 15:26:14.958 [TestNG-tests-5] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:26:15.449 [TestNG-tests-3] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 15:26:15.538 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:26:15.538 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:26:15.771 [TestNG-tests-4] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 15:26:16.614 [TestNG-tests-3] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 15:26:16.917 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:26:26.175 [TestNG-tests-4] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 15:26:26.283 [TestNG-tests-4] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 15:26:26.299 [TestNG-tests-4] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:28:15.782 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:28:20.145 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:28:35.273 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:28:37.369 [main] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 15:28:37.666 [main] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 15:28:42.915 [main] BaseTest - Adding New Row
+[INFO ] 2024-07-17 15:28:42.917 [main] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 15:28:42.965 [main] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 15:28:48.742 [main] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 15:28:48.885 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:28:48.965 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:28:48.972 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:29:46.467 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:29:52.380 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:30:00.777 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:30:06.357 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 15:30:06.515 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 15:30:13.015 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:30:13.065 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:30:13.077 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:30:40.755 [TestNG-tests-5] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:30:48.672 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:30:50.815 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:30:51.525 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:30:51.670 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:30:52.998 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:03.144 [TestNG-tests-1] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:34:17.796 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:17.838 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:17.845 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:18.406 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:19.127 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:34:51.019 [TestNG-tests-1] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:34:51.100 [TestNG-tests-4] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:34:57.090 [TestNG-tests-2] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:34:57.447 [TestNG-tests-1] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 15:34:58.177 [TestNG-tests-5] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:35:00.095 [TestNG-tests-3] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:35:02.205 [TestNG-tests-1] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 15:35:04.373 [TestNG-tests-4] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:35:08.801 [TestNG-tests-5] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 15:35:12.432 [TestNG-tests-2] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 15:35:12.587 [TestNG-tests-2] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 15:35:12.925 [TestNG-tests-4] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 15:35:13.259 [TestNG-tests-4] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 15:35:14.441 [TestNG-tests-4] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 15:35:14.625 [TestNG-tests-1] BaseTest - Adding New Row
+[INFO ] 2024-07-17 15:35:14.625 [TestNG-tests-1] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 15:35:14.758 [TestNG-tests-1] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 15:35:15.292 [TestNG-tests-5] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 15:35:16.113 [TestNG-tests-5] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 15:35:20.793 [TestNG-tests-3] BaseTest - Verifying footer links based on status code
+[INFO ] 2024-07-17 15:35:20.816 [TestNG-tests-3] BaseTest - Footer links verification completed. Assertion result: Link Broken
+[INFO ] 2024-07-17 15:35:21.019 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:35:22.448 [TestNG-tests-2] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:35:26.631 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:35:27.429 [TestNG-tests-2] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 15:35:27.498 [TestNG-tests-2] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:35:29.723 [TestNG-tests-1] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 15:35:30.129 [TestNG-tests-4] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 15:35:30.620 [TestNG-tests-1] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:35:30.660 [TestNG-tests-4] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 15:35:30.792 [TestNG-tests-1] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 15:35:30.986 [TestNG-tests-1] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:35:30.997 [TestNG-tests-4] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:35:31.065 [TestNG-tests-5] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 15:35:33.026 [TestNG-tests-5] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 15:35:34.458 [TestNG-tests-3] BaseTest - Launching on application
+[DEBUG] 2024-07-17 15:35:34.894 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:35:34.902 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:35:41.519 [TestNG-tests-5] BaseTest - Verification of product with DOT number: 646764 in MyList returned: true
+[INFO ] 2024-07-17 15:35:41.519 [TestNG-tests-5] BaseTest - Product with DOT number: 646764 successfully verified in MyList
+[INFO ] 2024-07-17 15:35:41.519 [TestNG-tests-5] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:35:48.232 [TestNG-tests-3] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 15:35:53.912 [TestNG-tests-3] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 15:35:53.948 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 15:35:53.950 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 15:35:54.777 [TestNG-tests-3] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 15:35:55.149 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 15:37:14.924 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:37:22.416 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:40:44.475 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:40:51.391 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 15:41:24.447 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 15:41:30.682 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:45:39.145 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:45:52.373 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:46:12.083 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:46:23.215 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 17:46:27.759 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 17:46:27.864 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 17:46:28.016 [main] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 17:46:37.051 [main] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 17:46:37.174 [main] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 17:46:50.721 [main] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 17:47:30.512 [main] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 17:47:41.840 [main] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 17:47:41.883 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:48:16.215 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:48:23.700 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:48:38.279 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:48:44.011 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 17:48:44.160 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 17:48:51.911 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 17:48:51.960 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 17:48:51.973 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:49:15.594 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:49:23.500 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:49:37.957 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:49:41.011 [main] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 17:49:41.586 [main] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 17:49:47.013 [main] BaseTest - Adding New Row
+[INFO ] 2024-07-17 17:49:47.013 [main] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 17:49:47.061 [main] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 17:49:53.830 [main] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 17:49:54.076 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 17:49:54.201 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-17 17:49:54.217 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:50:12.716 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:50:22.453 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:50:40.105 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:51:04.614 [main] BaseTest - Verifying footer links based on status code
+[INFO ] 2024-07-17 17:51:04.630 [main] BaseTest - Footer links verification completed. Assertion result: Link Broken
+[INFO ] 2024-07-17 17:51:04.771 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:51:23.530 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:51:30.667 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:51:49.486 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:51:57.323 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 17:52:01.121 [main] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 17:52:01.221 [main] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 17:52:09.870 [main] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 17:52:12.157 [main] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 17:52:20.541 [main] BaseTest - Verification of product with DOT number: 646764 in MyList returned: true
+[INFO ] 2024-07-17 17:52:20.556 [main] BaseTest - Product with DOT number: 646764 successfully verified in MyList
+[INFO ] 2024-07-17 17:52:20.567 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:53:19.946 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:53:27.806 [main] BaseTest - Launching on application
+[INFO ] 2024-07-17 17:53:48.017 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:53:54.483 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 17:53:59.181 [main] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 17:53:59.280 [main] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 17:54:08.008 [main] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 17:54:10.249 [main] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 17:54:38.892 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 17:58:22.175 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 17:58:33.464 [main] BaseTest - Launching on application
+[DEBUG] 2024-07-17 17:58:33.674 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 17:58:33.674 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 17:58:52.454 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 17:58:59.421 [main] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 17:58:59.572 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 17:58:59.572 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 17:59:00.286 [main] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 17:59:00.526 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:02:58.032 [TestNG-tests-5] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 18:03:11.028 [TestNG-tests-4] BaseTest - Launching on application
+[INFO ] 2024-07-17 18:03:12.811 [TestNG-tests-3] BaseTest - Launching on application
+[INFO ] 2024-07-17 18:03:15.302 [TestNG-tests-5] BaseTest - Launching on application
+[INFO ] 2024-07-17 18:03:15.730 [TestNG-tests-1] BaseTest - Launching on application
+[INFO ] 2024-07-17 18:03:16.080 [TestNG-tests-2] BaseTest - Launching on application
+[INFO ] 2024-07-17 18:03:23.734 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:03:24.550 [TestNG-tests-3] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-17 18:03:40.714 [TestNG-tests-3] BaseTest - Launching on application
+[DEBUG] 2024-07-17 18:03:41.017 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 18:03:41.018 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 18:04:00.875 [TestNG-tests-5] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 18:04:01.021 [TestNG-tests-1] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 18:04:07.220 [TestNG-tests-2] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 18:04:08.167 [TestNG-tests-4] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 18:04:12.415 [TestNG-tests-1] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-17 18:04:13.106 [TestNG-tests-1] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-17 18:04:13.219 [TestNG-tests-2] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-17 18:04:13.250 [TestNG-tests-2] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-17 18:04:18.997 [TestNG-tests-1] BaseTest - Adding New Row
+[INFO ] 2024-07-17 18:04:18.997 [TestNG-tests-1] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-17 18:04:19.085 [TestNG-tests-1] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-17 18:04:20.941 [TestNG-tests-5] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 18:04:22.984 [TestNG-tests-4] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-17 18:04:24.061 [TestNG-tests-1] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-17 18:04:26.120 [TestNG-tests-3] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-17 18:04:26.479 [TestNG-tests-2] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 18:04:26.534 [TestNG-tests-2] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-17 18:04:26.539 [TestNG-tests-2] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:04:28.347 [TestNG-tests-4] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-17 18:04:28.550 [TestNG-tests-4] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-17 18:04:28.880 [TestNG-tests-4] BaseTest - Adding Product to cart
+[INFO ] 2024-07-17 18:04:30.187 [TestNG-tests-5] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-17 18:04:30.304 [TestNG-tests-5] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-17 18:04:32.883 [TestNG-tests-3] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-17 18:04:32.945 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-17 18:04:32.949 [TestNG-tests-3] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-17 18:04:33.768 [TestNG-tests-3] BaseTest - Verifying Search result
+[INFO ] 2024-07-17 18:04:34.002 [TestNG-tests-3] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:04:34.765 [TestNG-tests-4] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-17 18:04:34.906 [TestNG-tests-4] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-17 18:04:38.881 [TestNG-tests-5] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-17 18:04:41.273 [TestNG-tests-5] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-17 18:04:47.166 [TestNG-tests-4] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-17 18:04:49.790 [TestNG-tests-5] BaseTest - Verification of product with DOT number: 646764 in MyList returned: true
+[INFO ] 2024-07-17 18:04:49.790 [TestNG-tests-5] BaseTest - Product with DOT number: 646764 successfully verified in MyList
+[INFO ] 2024-07-17 18:04:49.790 [TestNG-tests-5] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:04:54.419 [TestNG-tests-1] BaseTest - Closing the browser
+[INFO ] 2024-07-17 18:04:59.225 [TestNG-tests-4] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-17 18:04:59.394 [TestNG-tests-4] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-17 18:04:59.397 [TestNG-tests-4] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:13:24.762 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:25.155 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:26.808 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:26.850 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:26.875 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:26.905 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:27.045 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:13:27.082 [main] BaseTest - Intializing firefox Browser
+[INFO ] 2024-07-18 12:24:39.778 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:25:11.925 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:25:38.820 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:26:10.044 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:26:55.060 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:27:04.026 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:27:11.612 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:27:17.436 [main] BaseTest - Creating cart with cartName MYCART-001
+[INFO ] 2024-07-18 12:27:17.453 [main] BaseTest - Navigating to View All cart Page
+[INFO ] 2024-07-18 12:27:23.663 [main] BaseTest - Verifying the created cart with cart-name MYCART-001
+[INFO ] 2024-07-18 12:27:23.716 [main] BaseTest - Verifying the status of created cart with cart-name MYCART-001
+[INFO ] 2024-07-18 12:27:23.725 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:27:23.922 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:27:32.935 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:27:41.699 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:28:16.861 [main] BaseTest - Verifying footer links based on status code
+[INFO ] 2024-07-18 12:28:16.871 [main] BaseTest - Footer links verification completed. Assertion result: Link Broken
+[INFO ] 2024-07-18 12:28:16.877 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:28:17.066 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:28:50.205 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:28:59.922 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:29:02.332 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-18 12:29:04.394 [main] BaseTest - Searching for the product with DOT number: 646764
+[INFO ] 2024-07-18 12:29:04.490 [main] BaseTest - Verified search result for product with DOT number: 646764
+[INFO ] 2024-07-18 12:29:12.960 [main] BaseTest - Added product with DOT number: 646764 to MyList
+[INFO ] 2024-07-18 12:29:13.732 [main] BaseTest - Navigated to MyList Page
+[INFO ] 2024-07-18 12:29:42.124 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:29:42.358 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:30:12.432 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:30:27.744 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:30:31.512 [main] BaseTest - Navigating to Order Form Page
+[INFO ] 2024-07-18 12:30:31.904 [main] BaseTest - Specifying DotNumber 711130 and Qty 1
+[INFO ] 2024-07-18 12:30:37.352 [main] BaseTest - Adding New Row
+[INFO ] 2024-07-18 12:30:37.352 [main] BaseTest - Specifying DotNumber 733108 and Qty 1 to new row
+[INFO ] 2024-07-18 12:30:37.399 [main] BaseTest - Verifying the result dispaly
+[INFO ] 2024-07-18 12:30:43.011 [main] BaseTest - Adding product to cart with dot Numbers 711130 733108
+[INFO ] 2024-07-18 12:30:43.154 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-18 12:30:43.263 [main] BaseTest - Verifying the product with dot number 711130 in cartPage
+[INFO ] 2024-07-18 12:30:43.268 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:30:43.431 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:31:15.976 [main] BaseTest - Launching on application
+[INFO ] 2024-07-18 12:31:23.860 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:31:26.151 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-18 12:31:27.912 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-18 12:31:28.009 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-18 12:31:30.006 [main] BaseTest - Adding Product to cart
+[INFO ] 2024-07-18 12:31:35.526 [main] BaseTest - Navigating to Cart Page
+[INFO ] 2024-07-18 12:31:35.738 [main] BaseTest - Verifying the cart for product with dotNumber 555983
+[INFO ] 2024-07-18 12:31:45.491 [main] BaseTest - Navigating to CheckoutPage
+[INFO ] 2024-07-18 12:31:54.744 [main] BaseTest - Placing an order for product with dotNumber
+[INFO ] 2024-07-18 12:31:54.834 [main] BaseTest - Verifying the confirmation message
+[INFO ] 2024-07-18 12:31:54.842 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-18 12:31:55.029 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-18 12:32:26.062 [main] BaseTest - Launching on application
+[DEBUG] 2024-07-18 12:32:26.351 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-18 12:32:26.366 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-18 12:32:36.093 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-18 12:32:39.877 [main] BaseTest - Searching for Items with Dot Numbers [505423, 726010, 729011, 753885, 711011, 708490, 731298, 505423]
+[DEBUG] 2024-07-18 12:32:39.898 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-18 12:32:39.899 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-18 12:32:40.502 [main] BaseTest - Verifying Search result
+[INFO ] 2024-07-18 12:32:40.512 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 10:47:29.237 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:47:37.087 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 10:49:13.430 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:49:23.535 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 10:50:36.295 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 10:51:07.162 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 10:51:09.276 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 10:51:09.376 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 10:51:29.802 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 10:51:44.844 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:51:53.479 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 10:53:53.550 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:54:02.324 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 10:55:14.316 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 10:55:23.083 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 10:55:35.191 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:55:57.166 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 10:57:32.580 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 10:57:44.610 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 10:57:47.480 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 10:57:47.578 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 10:58:18.258 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 10:59:26.595 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 10:59:35.502 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:00:46.481 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:00:49.627 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:00:51.576 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:00:51.808 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:01:30.562 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:01:38.842 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:02:50.100 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:02:52.706 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:02:54.233 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:02:54.341 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:03:14.760 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:13:47.770 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:13:57.592 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:15:08.019 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:15:11.324 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:15:12.774 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:15:12.845 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:15:33.253 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:15:45.462 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:15:52.893 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:17:02.749 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:17:05.584 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:17:07.049 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:17:07.220 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:17:27.654 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:49:13.044 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:49:20.988 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:50:38.280 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:50:42.342 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:50:45.460 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:50:45.554 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:51:05.803 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:53:14.397 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:17.795 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:18.036 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:21.399 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:23.639 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:27.907 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:27.979 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:53:28.020 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:31.411 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:31.485 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:53:31.531 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:34.509 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:37.645 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:37.938 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:53:37.953 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:41.009 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:53:41.118 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:53:41.193 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:53:44.079 [main] BaseTest - Launching on application
+[DEBUG] 2024-07-19 11:53:44.322 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2024-07-19 11:53:44.322 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2024-07-19 11:53:44.936 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 11:55:19.856 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 11:55:27.165 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 11:56:38.580 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 11:56:41.440 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 11:56:42.753 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 11:56:42.824 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 11:57:03.177 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 12:04:04.774 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 12:04:13.828 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 12:05:42.269 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 12:05:44.460 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 12:05:45.906 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 12:05:45.986 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 12:06:06.416 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 12:06:54.307 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 12:07:02.428 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 12:08:13.991 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 12:08:16.658 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 12:08:17.894 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 12:08:18.080 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 12:08:38.596 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 12:40:20.370 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 12:40:28.255 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 12:41:40.194 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 12:41:44.362 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 12:41:46.088 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 12:41:46.210 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 12:42:06.615 [main] BaseTest - Closing the browser
+[INFO ] 2024-07-19 14:15:43.247 [main] BaseTest - Intializing chrome Browser
+[INFO ] 2024-07-19 14:15:53.510 [main] BaseTest - Launching on application
+[INFO ] 2024-07-19 14:17:06.682 [main] BaseTest - Loggged in to application with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1
+[INFO ] 2024-07-19 14:17:09.910 [main] BaseTest - Navigating to PLP Page
+[INFO ] 2024-07-19 14:17:12.101 [main] BaseTest - Searching for product with dot number 555983
+[INFO ] 2024-07-19 14:17:12.246 [main] BaseTest - Verifying the search result for dot number 555983
+[INFO ] 2024-07-19 14:17:32.909 [main] BaseTest - Closing the browser

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="dotfoods.com.test.FooterLinkTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="verifyBrokenLink"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.FooterLinkTest -->
+      <class name="dotfoods.com.test.OrderPlacementTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="orderPlacementThroughJson" invocation-numbers="0"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.OrderPlacementTest -->
+      <class name="dotfoods.com.test.MyListTest">
+        <methods>
+          <include name="addToList"/>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="myListProductVerification"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.MyListTest -->
+      <class name="dotfoods.com.test.CreateCartTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="verifyCreatedCart"/>
+          <include name="createCart"/>
+          <include name="verifyStatusOfCreatedCart"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.CreateCartTest -->
+      <class name="dotfoods.com.test.OrderFormTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="verifyCartPageProducts"/>
+          <include name="orderForm" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.OrderFormTest -->
+      <class name="cucumber.TestNGTestRunner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- cucumber.TestNGTestRunner -->
+      <class name="dotfoods.com.test.SearchMultipleItemTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="verifySearchResult"/>
+          <include name="searchMultipleItems"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.SearchMultipleItemTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
