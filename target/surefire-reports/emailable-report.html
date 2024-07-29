@@ -9,26 +9,38 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">OrderPlacement</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">110,684</td><td></td><td></td></tr>
+<tr><td><a href="#t0">FooterLink</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">43,877</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">CreateCart</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">47,088</td><td></td><td></td></tr>
+<tr><td><a href="#t2">OrderForm</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">60,992</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">MyList</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">61,593</td><td></td><td></td></tr>
+<tr><td><a href="#t4">SearchMultipleItem</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,111</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">OrderPlacement</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">83,017</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">9</th><th class="num attn">1</th><th class="num">0</th><th class="num attn">1</th><th class="num">317,678</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OrderPlacement &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">dotfoods.com.test.OrderPlacementTest</td><td><a href="#m0">orderPlacementThroughJson</a></td><td rowspan="1">1721378753730</td><td rowspan="1">98756</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FooterLink &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dotfoods.com.test.FooterLinkTest</td><td><a href="#m0">verifyBrokenLink</a></td><td rowspan="1">1721978081361</td><td rowspan="1">31378</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">CreateCart &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">dotfoods.com.test.CreateCartTest</td><td><a href="#m1">createCart</a></td><td rowspan="1">1721978082243</td><td rowspan="1">26462</td></tr><tr class="passedeven"><td><a href="#m2">verifyCreatedCart</a></td><td rowspan="1">1721978108861</td><td rowspan="1">7107</td></tr><tr class="passedeven"><td><a href="#m3">verifyStatusOfCreatedCart</a></td><td rowspan="1">1721978115982</td><td rowspan="1">57</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">OrderForm &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">dotfoods.com.test.OrderFormTest</td><td><a href="#m4">orderForm</a></td><td rowspan="1">1721978084116</td><td rowspan="1">43894</td></tr><tr class="passedeven"><td><a href="#m5">verifyCartPageProducts</a></td><td rowspan="1">1721978128046</td><td rowspan="1">1903</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">MyList &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">dotfoods.com.test.MyListTest</td><td><a href="#m6">addToList</a></td><td rowspan="1">1721978082901</td><td rowspan="1">36635</td></tr><tr class="passedeven"><td><a href="#m7">myListProductVerification</a></td><td rowspan="1">1721978119547</td><td rowspan="1">11056</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">SearchMultipleItem &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">dotfoods.com.test.SearchMultipleItemTest</td><td><a href="#m8">searchMultipleItems</a></td><td rowspan="1">1721978120389</td><td rowspan="1">13213</td></tr><tr><th colspan="4">SearchMultipleItem &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">dotfoods.com.test.SearchMultipleItemTest</td><td><a href="#m9">verifySearchResult</a></td><td rowspan="1">1721978135398</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">OrderPlacement &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">dotfoods.com.test.OrderPlacementTest</td><td><a href="#m10">orderPlacementThroughJson</a></td><td rowspan="1">1721978084875</td><td rowspan="1">67040</td></tr></tbody>
 </table>
-<h2>OrderPlacement</h2><h3 id="m0">dotfoods.com.test.OrderPlacementTest#orderPlacementThroughJson</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{dotNum=555983, confMessage=Order Placed}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.cssSelector: .yellow-button&apos; (tried for 5 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at dotfoods.com.abstractComponent.AbstractComponent.waitForWebElementToAppear(AbstractComponent.java:44)
-	at dotfoods.com.java.PLPPage.addToCart(PLPPage.java:58)
-	at dotfoods.com.test.OrderPlacementTest.orderPlacementThroughJson(OrderPlacementTest.java:52)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.yellow-button&quot;}
-  (Session info: chrome=126.0.6478.128)
+<h2>FooterLink</h2><h3 id="m0">dotfoods.com.test.FooterLinkTest#verifyBrokenLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>CreateCart</h2><h3 id="m1">dotfoods.com.test.CreateCartTest#createCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">dotfoods.com.test.CreateCartTest#verifyCreatedCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">dotfoods.com.test.CreateCartTest#verifyStatusOfCreatedCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrderForm</h2><h3 id="m4">dotfoods.com.test.OrderFormTest#orderForm</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{dotNumber1=711130, quantity=1, dotNumber2=733108}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">dotfoods.com.test.OrderFormTest#verifyCartPageProducts</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{dotNumber1=711130, quantity=1, dotNumber2=733108}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>MyList</h2><h3 id="m6">dotfoods.com.test.MyListTest#addToList</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">dotfoods.com.test.MyListTest#myListProductVerification</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>SearchMultipleItem</h2><h3 id="m8">dotfoods.com.test.SearchMultipleItemTest#searchMultipleItems</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#input28&quot;}
+  (Session info: chrome=126.0.6478.185)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c168c827ef8b9a3ec8288f46c9b30e13, findElement {using=css selector, value=.yellow-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52012/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c168c827ef8b9a3ec8288f46c9b30e13
+Command: [71c4ff806383476e1193f33b206a87e0, findElement {value=input28, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64183/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c4ff806383476e1193f33b206a87e0
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -37,17 +49,28 @@ Session ID: c168c827ef8b9a3ec8288f46c9b30e13
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
 	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-	... 33 more
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+	at dotfoods.com.pageObjectModels.LoginPage.login(LoginPage.java:36)
+	at dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems(SearchMultipleItemTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">dotfoods.com.test.SearchMultipleItemTest#verifySearchResult</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method dotfoods.com.test.SearchMultipleItemTest.verifySearchResult() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e depends on not successfully finished methods 
+[dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OrderPlacement</h2><h3 id="m10">dotfoods.com.test.OrderPlacementTest#orderPlacementThroughJson</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{dotNum=555983, confMessage=Order Placed}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

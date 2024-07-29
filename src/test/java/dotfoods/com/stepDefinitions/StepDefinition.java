@@ -5,12 +5,12 @@ import java.io.IOException;
 import org.testng.Assert;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.CartPage;
-import dotfoods.com.java.CheckOutPage;
-import dotfoods.com.java.LoginPage;
-import dotfoods.com.java.OrderConfirmationPage;
-import dotfoods.com.java.OrderFormPage;
-import dotfoods.com.java.PLPPage;
+import dotfoods.com.pageObjectModels.CartPage;
+import dotfoods.com.pageObjectModels.CheckOutPage;
+import dotfoods.com.pageObjectModels.LoginPage;
+import dotfoods.com.pageObjectModels.OrderConfirmationPage;
+import dotfoods.com.pageObjectModels.OrderFormPage;
+import dotfoods.com.pageObjectModels.PLPPage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

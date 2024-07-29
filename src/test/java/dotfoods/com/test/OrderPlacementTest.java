@@ -11,11 +11,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.CartPage;
-import dotfoods.com.java.CheckOutPage;
-import dotfoods.com.java.LoginPage;
-import dotfoods.com.java.OrderConfirmationPage;
-import dotfoods.com.java.PLPPage;
+import dotfoods.com.pageObjectModels.CartPage;
+import dotfoods.com.pageObjectModels.CheckOutPage;
+import dotfoods.com.pageObjectModels.LoginPage;
+import dotfoods.com.pageObjectModels.OrderConfirmationPage;
+import dotfoods.com.pageObjectModels.PLPPage;
 
 public class OrderPlacementTest extends BaseTest {
 

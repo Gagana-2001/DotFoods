@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
     <listener class-name="dotfoods.com.baseTest.ListenersTest"/>
   </listeners>
-  <test thread-count="5" name="OrderPlacement(failed)">
+  <test thread-count="5" parallel="tests" name="FooterLink(failed)">
+    <classes>
+      <class name="dotfoods.com.test.FooterLinkTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="verifyBrokenLink"/>
+          <include name="closeConnection"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.FooterLinkTest -->
+    </classes>
+  </test> <!-- FooterLink(failed) -->
+  <test thread-count="5" parallel="tests" name="SearchMultipleItem(failed)">
+    <classes>
+      <class name="dotfoods.com.test.SearchMultipleItemTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="verifySearchResult"/>
+          <include name="searchMultipleItems"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.SearchMultipleItemTest -->
+    </classes>
+  </test> <!-- SearchMultipleItem(failed) -->
+  <test thread-count="5" parallel="tests" name="CreateCart(failed)">
+    <classes>
+      <class name="dotfoods.com.test.CreateCartTest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="closeConnection"/>
+          <include name="verifyCreatedCart"/>
+          <include name="createCart"/>
+          <include name="verifyStatusOfCreatedCart"/>
+        </methods>
+      </class> <!-- dotfoods.com.test.CreateCartTest -->
+    </classes>
+  </test> <!-- CreateCart(failed) -->
+  <test thread-count="5" parallel="tests" name="OrderPlacement(failed)">
     <classes>
       <class name="dotfoods.com.test.OrderPlacementTest">
         <methods>
           <include name="launchApplication"/>
-          <include name="closeConnection"/>
           <include name="orderPlacementThroughJson" invocation-numbers="0"/>
+          <include name="closeConnection"/>
         </methods>
       </class> <!-- dotfoods.com.test.OrderPlacementTest -->
     </classes>

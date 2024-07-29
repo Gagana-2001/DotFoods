@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.CartPage;
+import dotfoods.com.pageObjectModels.CartPage;
 
 public class CreateCartTest extends BaseTest {
 

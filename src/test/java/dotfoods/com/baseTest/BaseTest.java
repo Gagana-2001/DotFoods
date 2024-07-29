@@ -24,7 +24,7 @@ import org.testng.annotations.BeforeClass;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import dotfoods.com.java.LoginPage;
+import dotfoods.com.pageObjectModels.LoginPage;
 
 public class BaseTest {
 
@@ -80,10 +80,11 @@ public class BaseTest {
 	public String getScreenShot(String testCase, WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);
-		File path = new File(System.getProperty("user.dir") + "//Test-Result//TestNG//" + testCase + ".png");
+		File path = new File(
+				System.getProperty("user.dir") + "//Test-Result//TestNG//ScreenShots//" + testCase + ".png");
 		FileUtils.copyFile(source, path);
 
-		return System.getProperty("user.dir") + "//Test-Result//TestNG//" + testCase + ".png";
+		return System.getProperty("user.dir") + "//Test-Result//TestNG//ScreenShots//" + testCase + ".png";
 	}
 
 	public List<HashMap<String, String>> getJsonData(String filePath) throws IOException {

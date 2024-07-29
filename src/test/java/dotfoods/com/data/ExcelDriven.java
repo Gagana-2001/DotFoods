@@ -17,7 +17,8 @@ public class ExcelDriven {
 	public String[] getData() throws IOException {
 
 		ArrayList<String> dotNumbers = new ArrayList<String>();
-		FileInputStream fis = new FileInputStream("D:\\DotNumber(searchMultiple).xlsx");
+		FileInputStream fis = new FileInputStream(
+				"D:\\DotFoods\\DotFoods\\src\\test\\java\\dotfoods\\com\\data\\DotNumber(searchMultiple).xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(fis);
 		XSSFSheet sheet = workbook.getSheetAt(0);
 

@@ -1,0 +1,144 @@
+# Created at 2024-07-26T10:57:37.634
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2024-07-26T10:57:39.517
+Unexpected IOException with stream:   Given Landed on the Dot Foods URL                                                         # dotfoods.com.stepDefinitions.StepDefinition.I_landed_On_DotFoods_Page()
+
+
+# Created at 2024-07-26T10:57:39.531
+Unexpected IOException with stream:   Given Logged in with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1 # dotfoods.com.stepDefinitions.StepDefinition.logged_In_UserName_Password(java.lang.String,java.lang.String)
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=126.0.6478.185)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6187a991d158e96df29b7beb17d2d3b, findElement {value=input28, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60769/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e6187a991d158e96df29b7beb17d2d3b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy39.sendKeys(Unknown Source)
+	at dotfoods.com.pageObjectModels.LoginPage.login(LoginPage.java:36)
+	at dotfoods.com.stepDefinitions.StepDefinition.logged_In_UserName_Password(StepDefinition.java:35)
+	at ✽.Logged in with username dotexpresswayhelp@dotfoods.com and password Ericisthebest!1(file:///D:/DotFoods/DotFoods/src/test/java/cucumber/OrderPlacement.feature:9)
+
+
+
+# Created at 2024-07-26T10:57:39.534
+Unexpected IOException with stream:   When Navigate to PLP Page                                                                 # dotfoods.com.stepDefinitions.StepDefinition.navigated_on_PLPPage()
+
+
+# Created at 2024-07-26T10:57:39.534
+Unexpected IOException with stream:   When Search for the product 555983                                                        # dotfoods.com.stepDefinitions.StepDefinition.search_for_Product(java.lang.String)
+
+
+# Created at 2024-07-26T10:57:39.534
+Unexpected IOException with stream:   Then Verify the search result for 555983                                                  # dotfoods.com.stepDefinitions.StepDefinition.verify_Search_result(java.lang.String)
+
+
+# Created at 2024-07-26T10:57:39.547
+Unexpected IOException with stream:   When AddProduct to Cart                                                                   # dotfoods.com.stepDefinitions.StepDefinition.addProduct_To_Cart()
+
+
+# Created at 2024-07-26T10:57:39.547
+Unexpected IOException with stream:   When Navigate to Cart Page                                                                # dotfoods.com.stepDefinitions.StepDefinition.naviagte_To_CartPage()
+
+
+# Created at 2024-07-26T10:57:39.555
+Unexpected IOException with stream:   Then Verify the product in cart for 555983                                                # dotfoods.com.stepDefinitions.StepDefinition.verify_Product_In_Cart(java.lang.String)
+
+
+# Created at 2024-07-26T10:57:39.579
+Unexpected IOException with stream:   When Checkout to checkoutPage                                                             # dotfoods.com.stepDefinitions.StepDefinition.checkout_process()
+
+
+# Created at 2024-07-26T10:57:39.589
+Unexpected IOException with stream:   Then PlaceOrder for the Product                                                           # dotfoods.com.stepDefinitions.StepDefinition.placeOrder()
+
+
+# Created at 2024-07-26T10:57:39.594
+Unexpected IOException with stream:   And Verify the orderPlacement Message Order Placed                                        # dotfoods.com.stepDefinitions.StepDefinition.verify_confirmation_message(java.lang.String)
+
+
+# Created at 2024-07-26T10:57:39.626
+Unexpected IOException: 8,1,cucumber.TestNGTestRunner,runScenario(cucumber.TestNGTestRunner),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=126.0.6478.185)\000ABuild info: version: '4.21.0'\002C revision: '79ed462ef4'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.3'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e6187a991d158e96df29b7beb17d2d3b\002C findElement {value=input28\002C using=id}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 126.0.6478.185\002C chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...\002C userDataDir: C:\005CUsers\005CGagana.CM\005CAppData\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60769}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60769/devtoo...\002C se:cdpVersion: 126.0.6478.185\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e6187a991d158e96df29b7beb17d2d3b,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=126.0.6478.185)\000ABuild info: version: '4.21.0'\002C revision: '79ed462ef4'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.3'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e6187a991d158e96df29b7beb17d2d3b\002C findElement {value=input28\002C using=id}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 126.0.6478.185\002C chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...\002C userDataDir: C:\005CUsers\005CGagana.CM\005CAppData\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60769}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60769/devtoo...\002C se:cdpVersion: 126.0.6478.185\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e6187a991d158e96df29b7beb17d2d3b,TestNGTestRunner.runScenario \00BB NoSuchWindow no such window: target window alre...,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=126.0.6478.185)\000ABuild info: version: '4.21.0'\002C revision: '79ed462ef4'\000ASystem info: os.name: 'Windows 11'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '21.0.3'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACommand: [e6187a991d158e96df29b7beb17d2d3b\002C findElement {value=input28\002C using=id}]\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 126.0.6478.185\002C chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf...\002C userDataDir: C:\005CUsers\005CGagana.CM\005CAppData\005C...}\002C fedcm:accounts: true\002C goog:chromeOptions: {debuggerAddress: localhost:60769}\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platformName: windows\002C proxy: Proxy()\002C se:cdp: ws://localhost:60769/devtoo...\002C se:cdpVersion: 126.0.6478.185\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:extension:minPinLength: true\002C webauthn:extension:prf: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: e6187a991d158e96df29b7beb17d2d3b\000A
+
+
+# Created at 2024-07-26T10:57:40.272
+Unexpected IOException with stream: Jul 26, 2024 10:57:40 AM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+
+
+# Created at 2024-07-26T10:57:43.172
+Unexpected IOException with stream: Jul 26, 2024 10:57:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-07-26T10:57:45.160
+Unexpected IOException: 5,1,dotfoods.com.test.CreateCartTest,createCart(dotfoods.com.test.CreateCartTest),dotfoods.com.test.CreateCartTest,null,null
+
+
+# Created at 2024-07-26T10:57:57.269
+Unexpected IOException: 6,1,dotfoods.com.test.CreateCartTest,createCart(dotfoods.com.test.CreateCartTest),null,null,null
+
+
+# Created at 2024-07-26T10:57:57.279
+Unexpected IOException: 5,1,dotfoods.com.test.CreateCartTest,verifyCreatedCart(dotfoods.com.test.CreateCartTest),dotfoods.com.test.CreateCartTest,null,null
+
+
+# Created at 2024-07-26T10:58:03.508
+Unexpected IOException: 6,1,dotfoods.com.test.CreateCartTest,verifyCreatedCart(dotfoods.com.test.CreateCartTest),null,null,null
+
+
+# Created at 2024-07-26T10:58:03.511
+Unexpected IOException: 5,1,dotfoods.com.test.CreateCartTest,verifyStatusOfCreatedCart(dotfoods.com.test.CreateCartTest),dotfoods.com.test.CreateCartTest,null,null
+
+
+# Created at 2024-07-26T10:58:03.562
+Unexpected IOException: 6,1,dotfoods.com.test.CreateCartTest,verifyStatusOfCreatedCart(dotfoods.com.test.CreateCartTest),null,null,null
+
+
+# Created at 2024-07-26T10:58:05.984
+Unexpected IOException with stream: Jul 26, 2024 10:58:05 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-07-26T10:58:08.553
+Unexpected IOException: 5,1,dotfoods.com.test.FooterLinkTest,verifyBrokenLink(dotfoods.com.test.FooterLinkTest),dotfoods.com.test.FooterLinkTest,null,null
+
+
+# Created at 2024-07-26T10:58:25.158
+Unexpected IOException: 6,1,dotfoods.com.test.FooterLinkTest,verifyBrokenLink(dotfoods.com.test.FooterLinkTest),null,null,null
+
+
+# Created at 2024-07-26T10:58:27.086
+Unexpected IOException with stream: Jul 26, 2024 10:58:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
+
+
+# Created at 2024-07-26T10:58:29.119
+Unexpected IOException: 5,1,dotfoods.com.test.MyListTest,addToList(dotfoods.com.test.MyListTest),dotfoods.com.test.MyListTest,null,null
+
+

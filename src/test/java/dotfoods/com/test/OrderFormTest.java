@@ -9,8 +9,8 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.CartPage;
-import dotfoods.com.java.OrderFormPage;
+import dotfoods.com.pageObjectModels.CartPage;
+import dotfoods.com.pageObjectModels.OrderFormPage;
 
 public class OrderFormTest extends BaseTest {
 

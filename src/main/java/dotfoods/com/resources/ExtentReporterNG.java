@@ -8,7 +8,7 @@ public class ExtentReporterNG {
 
 	public static ExtentReports getExtentReport() {
 
-		String path = System.getProperty("user.dir") + "//Test-Result//TestNG//index.html";
+		String path = System.getProperty("user.dir") + "//Test-Result//TestNG//testNg.html";
 
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("Dot Foods Report");

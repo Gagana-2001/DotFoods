@@ -7,9 +7,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.baseTest.Retry;
 import dotfoods.com.data.ExcelDriven;
-import dotfoods.com.java.HomePage;
+import dotfoods.com.pageObjectModels.HomePage;
 
 public class SearchMultipleItemTest extends BaseTest {
 

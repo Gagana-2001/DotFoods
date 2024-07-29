@@ -4,8 +4,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.MyListPage;
-import dotfoods.com.java.PLPPage;
+import dotfoods.com.pageObjectModels.MyListPage;
+import dotfoods.com.pageObjectModels.PLPPage;
 
 public class MyListTest extends BaseTest {
 

@@ -10,10 +10,10 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import dotfoods.com.java.CartPage;
-import dotfoods.com.java.MyListPage;
-import dotfoods.com.java.OrderFormPage;
-import dotfoods.com.java.PLPPage;
+import dotfoods.com.pageObjectModels.CartPage;
+import dotfoods.com.pageObjectModels.MyListPage;
+import dotfoods.com.pageObjectModels.OrderFormPage;
+import dotfoods.com.pageObjectModels.PLPPage;
 
 public class AbstractComponent {
 
@@ -33,10 +33,10 @@ public class AbstractComponent {
 	@FindBy(id = "ga4MiniCartViewCart")
 	private WebElement viewCart;
 
-	@FindBy(xpath = "//a[@href='/shop/order-form/']")
+	@FindBy(css = "a[href*='/shop/order-form/']")
 	private WebElement orderForm;
 
-	@FindBy(xpath = "//a[@href='/shop/multiple-lists/']")
+	@FindBy(css = "a[href*='/shop/multiple-lists/']")
 	private WebElement myList;
 
 	public void waitForWebElementToAppear(WebElement element) {

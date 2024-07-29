@@ -1,35 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="11" passed="9" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-19T14:15:42 IST" name="Suite" finished-at="2024-07-19T14:17:33 IST" duration-ms="110684">
+  <suite started-at="2024-07-26T12:44:29 IST" name="Suite" finished-at="2024-07-26T12:45:52 IST" duration-ms="83017">
     <groups>
     </groups>
-    <test started-at="2024-07-19T14:15:42 IST" name="OrderPlacement" finished-at="2024-07-19T14:17:33 IST" duration-ms="110684">
-      <class name="dotfoods.com.test.OrderPlacementTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.OrderPlacementTest@289710d9]" started-at="2024-07-19T14:15:42 IST" name="launchApplication" finished-at="2024-07-19T14:15:53 IST" duration-ms="10845" status="PASS">
+    <test started-at="2024-07-26T12:44:29 IST" name="FooterLink" finished-at="2024-07-26T12:45:13 IST" duration-ms="43877">
+      <class name="dotfoods.com.test.FooterLinkTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.FooterLinkTest@1852a3ff]" started-at="2024-07-26T12:44:29 IST" name="launchApplication" finished-at="2024-07-26T12:44:41 IST" duration-ms="12106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderPlacementThroughJson(java.util.HashMap)[pri:0, instance:dotfoods.com.test.OrderPlacementTest@289710d9]" started-at="2024-07-19T14:15:53 IST" name="orderPlacementThroughJson" data-provider="getData" finished-at="2024-07-19T14:17:32 IST" duration-ms="98756" status="FAIL">
+        <test-method signature="verifyBrokenLink()[pri:0, instance:dotfoods.com.test.FooterLinkTest@1852a3ff]" started-at="2024-07-26T12:44:41 IST" name="verifyBrokenLink" finished-at="2024-07-26T12:45:12 IST" duration-ms="31378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBrokenLink -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.FooterLinkTest@1852a3ff]" started-at="2024-07-26T12:45:12 IST" name="closeConnection" finished-at="2024-07-26T12:45:13 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- dotfoods.com.test.FooterLinkTest -->
+    </test> <!-- FooterLink -->
+    <test started-at="2024-07-26T12:44:29 IST" name="CreateCart" finished-at="2024-07-26T12:45:16 IST" duration-ms="47088">
+      <class name="dotfoods.com.test.CreateCartTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.CreateCartTest@495b0487]" started-at="2024-07-26T12:44:29 IST" name="launchApplication" finished-at="2024-07-26T12:44:42 IST" duration-ms="12998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="createCart()[pri:0, instance:dotfoods.com.test.CreateCartTest@495b0487]" started-at="2024-07-26T12:44:42 IST" name="createCart" finished-at="2024-07-26T12:45:08 IST" duration-ms="26462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCart -->
+        <test-method signature="verifyCreatedCart()[pri:0, instance:dotfoods.com.test.CreateCartTest@495b0487]" started-at="2024-07-26T12:45:08 IST" name="verifyCreatedCart" finished-at="2024-07-26T12:45:15 IST" depends-on-methods="dotfoods.com.test.CreateCartTest.createCart" duration-ms="7107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedCart -->
+        <test-method signature="verifyStatusOfCreatedCart()[pri:0, instance:dotfoods.com.test.CreateCartTest@495b0487]" started-at="2024-07-26T12:45:15 IST" name="verifyStatusOfCreatedCart" finished-at="2024-07-26T12:45:16 IST" depends-on-methods="dotfoods.com.test.CreateCartTest.verifyCreatedCart" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusOfCreatedCart -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.CreateCartTest@495b0487]" started-at="2024-07-26T12:45:16 IST" name="closeConnection" finished-at="2024-07-26T12:45:16 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- dotfoods.com.test.CreateCartTest -->
+    </test> <!-- CreateCart -->
+    <test started-at="2024-07-26T12:44:29 IST" name="OrderForm" finished-at="2024-07-26T12:45:30 IST" duration-ms="60992">
+      <class name="dotfoods.com.test.OrderFormTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.OrderFormTest@1a760689]" started-at="2024-07-26T12:44:29 IST" name="launchApplication" finished-at="2024-07-26T12:44:44 IST" duration-ms="14862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderForm(java.util.HashMap)[pri:0, instance:dotfoods.com.test.OrderFormTest@1a760689]" started-at="2024-07-26T12:44:44 IST" name="orderForm" data-provider="getData" finished-at="2024-07-26T12:45:28 IST" duration-ms="43894" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{dotNum=555983, confMessage=Order Placed}]]>
+                <![CDATA[{dotNumber1=711130, quantity=1, dotNumber2=733108}]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderForm -->
+        <test-method signature="verifyCartPageProducts(java.util.HashMap)[pri:0, instance:dotfoods.com.test.OrderFormTest@1a760689]" started-at="2024-07-26T12:45:28 IST" name="verifyCartPageProducts" data-provider="getData" finished-at="2024-07-26T12:45:29 IST" depends-on-methods="dotfoods.com.test.OrderFormTest.orderForm" duration-ms="1903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dotNumber1=711130, quantity=1, dotNumber2=733108}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageProducts -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.OrderFormTest@1a760689]" started-at="2024-07-26T12:45:29 IST" name="closeConnection" finished-at="2024-07-26T12:45:30 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- dotfoods.com.test.OrderFormTest -->
+    </test> <!-- OrderForm -->
+    <test started-at="2024-07-26T12:44:29 IST" name="MyList" finished-at="2024-07-26T12:45:30 IST" duration-ms="61593">
+      <class name="dotfoods.com.test.MyListTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.MyListTest@2d6764b2]" started-at="2024-07-26T12:44:29 IST" name="launchApplication" finished-at="2024-07-26T12:44:42 IST" duration-ms="13656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="addToList()[pri:0, instance:dotfoods.com.test.MyListTest@2d6764b2]" started-at="2024-07-26T12:44:42 IST" name="addToList" finished-at="2024-07-26T12:45:19 IST" duration-ms="36635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToList -->
+        <test-method signature="myListProductVerification()[pri:0, instance:dotfoods.com.test.MyListTest@2d6764b2]" started-at="2024-07-26T12:45:19 IST" name="myListProductVerification" finished-at="2024-07-26T12:45:30 IST" depends-on-methods="dotfoods.com.test.MyListTest.addToList" duration-ms="11056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myListProductVerification -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.MyListTest@2d6764b2]" started-at="2024-07-26T12:45:30 IST" name="closeConnection" finished-at="2024-07-26T12:45:30 IST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- dotfoods.com.test.MyListTest -->
+    </test> <!-- MyList -->
+    <test started-at="2024-07-26T12:45:14 IST" name="SearchMultipleItem" finished-at="2024-07-26T12:45:35 IST" duration-ms="21111">
+      <class name="dotfoods.com.test.SearchMultipleItemTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.SearchMultipleItemTest@6399551e]" started-at="2024-07-26T12:45:14 IST" name="launchApplication" finished-at="2024-07-26T12:45:20 IST" duration-ms="5836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="searchMultipleItems()[pri:0, instance:dotfoods.com.test.SearchMultipleItemTest@6399551e]" started-at="2024-07-26T12:45:20 IST" name="searchMultipleItems" finished-at="2024-07-26T12:45:33 IST" duration-ms="13213" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .yellow-button' (tried for 5 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#input28"}
+  (Session info: chrome=126.0.6478.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71c4ff806383476e1193f33b206a87e0, findElement {value=input28, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64183/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c4ff806383476e1193f33b206a87e0]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: .yellow-button' (tried for 5 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at dotfoods.com.abstractComponent.AbstractComponent.waitForWebElementToAppear(AbstractComponent.java:44)
-at dotfoods.com.java.PLPPage.addToCart(PLPPage.java:58)
-at dotfoods.com.test.OrderPlacementTest.orderPlacementThroughJson(OrderPlacementTest.java:52)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#input28"}
+  (Session info: chrome=126.0.6478.185)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71c4ff806383476e1193f33b206a87e0, findElement {value=input28, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.185, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64183}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64183/devtoo..., se:cdpVersion: 126.0.6478.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 71c4ff806383476e1193f33b206a87e0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy30.sendKeys(Unknown Source)
+at dotfoods.com.pageObjectModels.LoginPage.login(LoginPage.java:36)
+at dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems(SearchMultipleItemTest.java:25)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -44,60 +161,70 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".yellow-button"}
-  (Session info: chrome=126.0.6478.128)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c168c827ef8b9a3ec8288f46c9b30e13, findElement {using=css selector, value=.yellow-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.128, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: C:\Users\Gagana.CM\AppData\...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52012}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52012/devtoo..., se:cdpVersion: 126.0.6478.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c168c827ef8b9a3ec8288f46c9b30e13
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy30.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
-... 33 more
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMultipleItems -->
+        <test-method signature="verifySearchResult()[pri:0, instance:dotfoods.com.test.SearchMultipleItemTest@6399551e]" started-at="2024-07-26T12:45:35 IST" name="verifySearchResult" finished-at="2024-07-26T12:45:35 IST" depends-on-methods="dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method dotfoods.com.test.SearchMultipleItemTest.verifySearchResult() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e depends on not successfully finished methods 
+[dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method dotfoods.com.test.SearchMultipleItemTest.verifySearchResult() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e depends on not successfully finished methods 
+[dotfoods.com.test.SearchMultipleItemTest.searchMultipleItems() on instance dotfoods.com.test.SearchMultipleItemTest@6399551e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResult -->
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.SearchMultipleItemTest@6399551e]" started-at="2024-07-26T12:45:35 IST" name="closeConnection" finished-at="2024-07-26T12:45:35 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeConnection -->
+      </class> <!-- dotfoods.com.test.SearchMultipleItemTest -->
+    </test> <!-- SearchMultipleItem -->
+    <test started-at="2024-07-26T12:44:29 IST" name="OrderPlacement" finished-at="2024-07-26T12:45:52 IST" duration-ms="83017">
+      <class name="dotfoods.com.test.OrderPlacementTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:dotfoods.com.test.OrderPlacementTest@39fcbef6]" started-at="2024-07-26T12:44:29 IST" name="launchApplication" finished-at="2024-07-26T12:44:44 IST" duration-ms="14817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderPlacementThroughJson(java.util.HashMap)[pri:0, instance:dotfoods.com.test.OrderPlacementTest@39fcbef6]" started-at="2024-07-26T12:44:44 IST" name="orderPlacementThroughJson" data-provider="getData" finished-at="2024-07-26T12:45:51 IST" duration-ms="67040" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{dotNum=555983, confMessage=Order Placed}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderPlacementThroughJson -->
-        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.OrderPlacementTest@289710d9]" started-at="2024-07-19T14:17:32 IST" name="closeConnection" finished-at="2024-07-19T14:17:33 IST" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="closeConnection()[pri:0, instance:dotfoods.com.test.OrderPlacementTest@39fcbef6]" started-at="2024-07-26T12:45:51 IST" name="closeConnection" finished-at="2024-07-26T12:45:52 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeConnection -->

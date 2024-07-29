@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import dotfoods.com.baseTest.BaseTest;
-import dotfoods.com.java.HomePage;
+import dotfoods.com.pageObjectModels.HomePage;
 
 public class FooterLinkTest extends BaseTest {
 
